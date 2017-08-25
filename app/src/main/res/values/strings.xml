@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Taller1</string>
+    <string name="empresaxyz">EmpresaXYZ</string>
+    <string name="tipomanilla">Tipo de manilla:</string>
+    <string name="material">Material:</string>
+    <string name="dije">Dije:</string>
+    <string name="cuero">Cuero</string>
+    <string name="cuerda">Cuerda</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="digiteCantidad">Digite cantidad</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="detallesCompra">Detalles De la compra</string>
+    <string name="valorUnitario">Valor unitario:</string>
+    <string name="valorTotal">Valor total:</string>
 </resources>
