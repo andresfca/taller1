@@ -13,4 +13,7 @@
     <string name="detallesCompra">Detalles De la compra</string>
     <string name="valorUnitario">Valor unitario:</string>
     <string name="valorTotal">Valor total:</string>
+    <string name="Dolar" >Dolar</string>
+    <string name="peso">Peso</string>
+    <string name="tipoDePago">Tipo de pago:</string>
 </resources>

@@ -48,33 +48,41 @@
             android:layout_height="39dp"
             android:weightSum="1">
 
-            <RadioButton
-                android:text="@string/cuero"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioButton2"
-                android:textStyle="normal|bold"
-                android:textAlignment="textStart"
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="0.58" />
 
             <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cuero"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold" />
+
+            <RadioButton
                 android:text="@string/cuerda"
-                android:layout_width="121dp"
+                android:layout_width="101dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/radioButton"
                 android:textStyle="normal|bold"
-                android:textAlignment="textStart"
-                android:layout_weight="0.54" />
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.58" />
         </LinearLayout>
 
         <TextView
             android:text="@string/dije"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:id="@+id/textView6"
             android:textSize="18sp"
             android:textStyle="normal|bold"
-            android:layout_weight="0.05"
             android:textAlignment="center" />
 
         <Spinner
@@ -85,12 +93,11 @@
         <TextView
             android:text="@string/tipomanilla"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="32dp"
             android:id="@+id/textView4"
             android:textSize="18sp"
             android:textAlignment="center"
-            android:textStyle="normal|bold"
-            android:layout_weight="0.04" />
+            android:textStyle="normal|bold" />
 
         <Spinner
             android:layout_width="match_parent"
@@ -106,6 +113,46 @@
             android:hint="@string/digiteCantidad"
             android:textAlignment="center" />
 
+        <TextView
+            android:id="@+id/tipoDePago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="@string/tipoDePago"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.42" />
+
+            <RadioButton
+                android:id="@+id/Dolar"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Dolar" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:text="@string/peso" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
@@ -113,10 +160,9 @@
 
             <Button
                 android:text="@string/cancelar"
-                android:layout_width="match_parent"
+                android:layout_width="182dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/Cancelar"
-                android:layout_weight="1" />
+                android:id="@+id/Cancelar" />
 
             <Button
                 android:text="@string/aceptar"
@@ -129,7 +175,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="290dp">
+            android:layout_height="142dp">
 
             <TextView
                 android:text="@string/detallesCompra"
@@ -150,7 +196,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="38dp"
                     android:id="@+id/textView10"
-                    android:layout_weight="3.74"
+                    android:layout_weight="2.28"
                     android:textStyle="normal|bold"
                     android:textSize="18sp"
                     android:textAlignment="center" />
@@ -169,20 +215,20 @@
                 android:layout_height="63dp">
 
                 <TextView
-                    android:text="@string/valorTotal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="41dp"
                     android:id="@+id/textView13"
-                    android:layout_weight="0.56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:text="@string/valorTotal"
                     android:textAlignment="center"
+                    android:textSize="18sp"
                     android:textStyle="normal|bold"
-                    android:textSize="18sp" />
+                    android:layout_weight="0.15" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
                     android:id="@+id/textView12"
-                    android:layout_weight="1.09" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_weight="0.43" />
             </LinearLayout>
 
         </LinearLayout>
