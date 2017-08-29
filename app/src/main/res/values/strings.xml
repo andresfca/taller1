@@ -26,6 +26,7 @@
     <string name="detallesCompra">Detalles De la compra</string>
     <string name="valorUnitario">Valor unitario:</string>
     <string name="valorTotal">Valor total:</string>
+<<<<<<< HEAD
     <string name="moneda">Moneda</string>
         <string-array name="strMoneda">
             <item>@string/pesos</item>
@@ -38,4 +39,9 @@
     <string name="oro">Oro, oro rosado</string>
     <string name="plata">Plata</string>
     <string name="niquel">Niquel</string>
+=======
+    <string name="Dolar" >Dolar</string>
+    <string name="peso">Peso</string>
+    <string name="tipoDePago">Tipo de pago:</string>
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
 </resources>

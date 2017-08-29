@@ -60,6 +60,7 @@
             android:layout_height="36dp">
 
             <TextView
+<<<<<<< HEAD
                 android:text="@string/dije"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,12 +77,47 @@
                 android:id="@+id/cmbDije"
                 android:layout_weight="1" />
 
+=======
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.58" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cuero"
+                android:textAlignment="textStart"
+                android:textStyle="normal|bold" />
+
+            <RadioButton
+                android:text="@string/cuerda"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioButton"
+                android:textStyle="normal|bold"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.58" />
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
+<<<<<<< HEAD
             android:layout_height="35dp">
+=======
+            android:layout_height="32dp"
+            android:id="@+id/textView6"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center" />
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
 
             <TextView
                 android:text="@string/tipomanilla"
@@ -93,11 +129,22 @@
                 android:textStyle="normal|bold"
                 android:layout_weight="1" />
 
+<<<<<<< HEAD
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/cmbManilla"
                 android:layout_weight="1" />
+=======
+        <TextView
+            android:text="@string/tipomanilla"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:id="@+id/textView4"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
 
         </LinearLayout>
 
@@ -109,6 +156,46 @@
             android:id="@+id/txtCantidad"
             android:hint="@string/digiteCantidad"
             android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tipoDePago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04"
+            android:text="@string/tipoDePago"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.42" />
+
+            <RadioButton
+                android:id="@+id/Dolar"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Dolar" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:text="@string/peso" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -140,7 +227,11 @@
 
             <Button
                 android:text="@string/cancelar"
+<<<<<<< HEAD
                 android:layout_width="180dp"
+=======
+                android:layout_width="182dp"
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
                 android:layout_height="wrap_content"
                 android:id="@+id/Cancelar" />
 
@@ -154,7 +245,11 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
+<<<<<<< HEAD
             android:layout_height="179dp">
+=======
+            android:layout_height="142dp">
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
 
             <TextView
                 android:text="@string/detallesCompra"
@@ -175,7 +270,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="38dp"
                     android:id="@+id/textView10"
-                    android:layout_weight="3.74"
+                    android:layout_weight="2.28"
                     android:textStyle="normal|bold"
                     android:textSize="18sp"
                     android:textAlignment="center" />
@@ -194,20 +289,27 @@
                 android:layout_height="51dp">
 
                 <TextView
-                    android:text="@string/valorTotal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="41dp"
                     android:id="@+id/textView13"
-                    android:layout_weight="0.56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:text="@string/valorTotal"
                     android:textAlignment="center"
+                    android:textSize="18sp"
                     android:textStyle="normal|bold"
-                    android:textSize="18sp" />
+                    android:layout_weight="0.15" />
 
                 <TextView
+<<<<<<< HEAD
                     android:layout_width="wrap_content"
                     android:layout_height="38dp"
                     android:id="@+id/txtValorTotal"
                     android:layout_weight="1.09" />
+=======
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:layout_weight="0.43" />
+>>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
             </LinearLayout>
 
         </LinearLayout>
