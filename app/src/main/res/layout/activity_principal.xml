@@ -11,309 +11,193 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.taller1.Principal">
 
-    <TextView
-        android:text="@string/empresaxyz"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView7"
-        android:textSize="24sp"
-        android:textStyle="normal|bold"
-        android:textAlignment="center" />
-
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="6dp"
-        android:layout_below="@+id/textView7"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:weightSum="1">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="39dp">
-
-            <TextView
-                android:text="@string/material"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView5"
-                android:textSize="18sp"
-                android:textStyle="normal|bold"
-                android:layout_weight="1"
-                android:textAlignment="textEnd" />
-
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/cmbMaterial"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="36dp">
-
-            <TextView
-<<<<<<< HEAD
-                android:text="@string/dije"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView6"
-                android:textSize="18sp"
-                android:textStyle="normal|bold"
-                android:layout_weight="1"
-                android:textAlignment="textEnd" />
-
-
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/cmbDije"
-                android:layout_weight="1" />
-
-=======
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0.58" />
-
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="99dp"
-                android:layout_height="wrap_content"
-                android:text="@string/cuero"
-                android:textAlignment="textStart"
-                android:textStyle="normal|bold" />
-
-            <RadioButton
-                android:text="@string/cuerda"
-                android:layout_width="101dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/radioButton"
-                android:textStyle="normal|bold"
-                android:textAlignment="textStart" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0.58" />
->>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-<<<<<<< HEAD
-            android:layout_height="35dp">
-=======
-            android:layout_height="32dp"
-            android:id="@+id/textView6"
-            android:textSize="18sp"
-            android:textStyle="normal|bold"
-            android:textAlignment="center" />
->>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
-
-            <TextView
-                android:text="@string/tipomanilla"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView4"
-                android:textSize="18sp"
-                android:textAlignment="textEnd"
-                android:textStyle="normal|bold"
-                android:layout_weight="1" />
-
-<<<<<<< HEAD
-            <Spinner
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/cmbManilla"
-                android:layout_weight="1" />
-=======
         <TextView
-            android:text="@string/tipomanilla"
+            android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
-            android:id="@+id/textView4"
-            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/empresaxyz"
             android:textAlignment="center"
-            android:textStyle="normal|bold" />
->>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="@string/material"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/cmbMaterial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="@string/dije"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/cmbDije"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tipomanilla"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/cmbManilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tipoDePago" />
+
+            <Spinner
+                android:id="@+id/cmbMoneda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
         </LinearLayout>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
-            android:ems="10"
             android:id="@+id/txtCantidad"
-            android:hint="@string/digiteCantidad"
-            android:textAlignment="center" />
-
-        <TextView
-            android:id="@+id/tipoDePago"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.04"
-            android:text="@string/tipoDePago"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:ems="10"
+            android:hint="@string/digiteCantidad"
+            android:inputType="number"
+            android:textAlignment="center" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1.42" />
-
-            <RadioButton
-                android:id="@+id/Dolar"
-                android:layout_width="97dp"
-                android:layout_height="wrap_content"
-                android:text="@string/Dolar" />
-
-            <RadioButton
-                android:id="@+id/radioButton5"
-                android:layout_width="89dp"
-                android:layout_height="wrap_content"
-                android:text="@string/peso" />
-
-            <TextView
-                android:id="@+id/textView15"
+            <Button
+                android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="35dp">
-
-            <TextView
-                android:text="@string/moneda"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView3"
                 android:layout_weight="1"
-                android:textAlignment="textEnd"
-                android:textStyle="normal|bold"
-                android:textSize="18sp" />
+                android:onClick="borrar"
+                android:text="@string/cancelar" />
 
-            <Spinner
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/cmbMoneda"
-                android:layout_weight="1" />
-
+                android:layout_weight="1"
+                android:onClick="calcular"
+                android:text="@string/aceptar" />
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:text="@string/cancelar"
-<<<<<<< HEAD
-                android:layout_width="180dp"
-=======
-                android:layout_width="182dp"
->>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
-                android:layout_height="wrap_content"
-                android:id="@+id/Cancelar" />
-
-            <Button
-                android:text="@string/aceptar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/button" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-<<<<<<< HEAD
-            android:layout_height="179dp">
-=======
-            android:layout_height="142dp">
->>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
-                android:text="@string/detallesCompra"
+                android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView9"
-                android:textStyle="normal|bold"
+                android:text="@string/detallesCompra"
                 android:textAlignment="center"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="51dp">
+                android:layout_width="364dp"
+                android:layout_height="38dp"
+                android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.36"
                     android:text="@string/valorUnitario"
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
-                    android:id="@+id/textView10"
-                    android:layout_weight="2.28"
-                    android:textStyle="normal|bold"
                     android:textSize="18sp"
-                    android:textAlignment="center" />
+                    android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/txtValorUnitario"
                     android:layout_width="wrap_content"
-                    android:layout_height="33dp"
-                    android:id="@+id/txtunitario"
-                    android:layout_weight="9.82" />
-
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="51dp">
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/textView10"
                     android:layout_width="wrap_content"
-                    android:layout_height="42dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.54"
                     android:text="@string/valorTotal"
-                    android:textAlignment="center"
                     android:textSize="18sp"
-                    android:textStyle="normal|bold"
-                    android:layout_weight="0.15" />
+                    android:textStyle="bold" />
 
                 <TextView
-<<<<<<< HEAD
-                    android:layout_width="wrap_content"
-                    android:layout_height="38dp"
                     android:id="@+id/txtValorTotal"
-                    android:layout_weight="1.09" />
-=======
-                    android:id="@+id/textView12"
                     android:layout_width="wrap_content"
-                    android:layout_height="43dp"
-                    android:layout_weight="0.43" />
->>>>>>> cab72532ea2464958e5c7816ffc0cc22cc69fab5
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp" />
             </LinearLayout>
 
         </LinearLayout>
 
     </LinearLayout>
-
 </RelativeLayout>

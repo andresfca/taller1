@@ -21,7 +21,7 @@ public class Principal extends AppCompatActivity {
         setContentView(R.layout.activity_principal);
         cantidad = (EditText)findViewById(R.id.txtCantidad);
         valorTotal = (TextView) findViewById(R.id.txtValorTotal);
-        valorUnitario = (TextView)findViewById(R.id.txtunitario);
+        valorUnitario = (TextView)findViewById(R.id.txtValorUnitario);
         dije = (Spinner)findViewById(R.id.cmbDije);
         tipoManilla = (Spinner)findViewById(R.id.cmbManilla);
         material = (Spinner)findViewById(R.id.cmbMaterial);
@@ -57,26 +57,68 @@ public class Principal extends AppCompatActivity {
                         case 0:
                             switch (op_manilla){
                                 case 0:
-                                    resultado = 384000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 384000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 120 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 1:
-                                    resultado = 320000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 320000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 100 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 2:
-                                    resultado = 288000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 288000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 90 * cant;
+                                            break;
+                                    }
                                     break;
                             }
                             break;
                         case 1:
                             switch (op_manilla){
                                 case 0:
-                                    resultado = 352000 *cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 352000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 110 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 1:
-                                    resultado = 288000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 288000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 90 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 2:
-                                    resultado = 256000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 256000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 80 * cant;
+                                            break;
+                                    }
                                     break;
                             }
                             break;
@@ -86,32 +128,76 @@ public class Principal extends AppCompatActivity {
                         case 0:
                             switch (op_manilla){
                                 case 0:
-                                    resultado = 320000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 320000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 100 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 1:
-                                    resultado = 256000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 256000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 80 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 2:
-                                    resultado = 224000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 224000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 70 * cant;
+                                            break;
+                                    }
                                     break;
                             }
                             break;
                         case 1:
                             switch (op_manilla){
                                 case 0:
-                                    resultado = 288000 *cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 288000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 90 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 1:
-                                    resultado = 224000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 352000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 110 * cant;
+                                            break;
+                                    }
                                     break;
                                 case 2:
-                                    resultado = 160000 * cant;
+                                    switch (op_moneda) {
+                                        case 0:
+                                            resultado = 160000 * cant;
+                                            break;
+                                        case 1:
+                                            resultado = 50 * cant;
+                                            break;
+                                    }
                                     break;
                             }
                             break;
                     }
-
+                    break;
             }
+            valorTotal.setText(""+resultado);
+            valorUnitario.setText(""+resultado/cant);
         }
     }
 
@@ -127,5 +213,18 @@ public class Principal extends AppCompatActivity {
             return false;
         }
         return true;
+    }
+
+    public void borrar(View v){
+        cantidad.setText("");
+        valorUnitario.setText("");
+        valorTotal.setText("");
+        cantidad.requestFocus();
+        dije.setSelection(0);
+        tipoManilla.setSelection(0);
+        material.setSelection(0);
+        moneda.setSelection(0);
+
+
     }
 }

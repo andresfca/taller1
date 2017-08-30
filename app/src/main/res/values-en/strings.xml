@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Workshop</string>
+    <string name="Dolar">Dollar</string>
+    <string name="aceptar">Agree</string>
+    <string name="ancla">Anchor</string>
+    <string name="cancelar">Delete</string>
+    <string name="cantidad">Quantity</string>
+    <string name="cuerda">Rope</string>
+    <string name="cuero">Leather</string>
+    <string name="detallesCompra">Purchase Details</string>
+    <string name="digiteCantidad">Enter amount</string>
+    <string name="dije">Pendant</string>
+    <string name="dolares">Dollars</string>
+    <string name="empresaxyz">CompanyXYZ</string>
+    <string name="martillo">Hammer</string>
+    <string name="material">Material</string>
+    <string name="moneda">Money</string>
+    <string name="niquel">Nickel</string>
+    <string name="oro">Gold, Pink Gold</string>
+    <string name="peso">Peso</string>
+    <string name="pesos">Pesos</string>
+    <string name="plata">Silver</string>
+    <string name="tipoDePago">Payment type</string>
+    <string name="tipomanilla">Handle Type</string>
+    <string name="valorTotal">Total value</string>
+</resources>
